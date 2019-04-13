@@ -19,15 +19,37 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.React-link {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 32px;
+  width: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.Github-link {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+.Svg-logo {
+  margin: 1rem;
+}
+
+.Svg-animation {
+  animation: stroke-animation 2s ease forwards;
+}
+
+.Action-button {
+  margin: 1rem;
+}
+
+/** Dashoffset start with full length to 0px, i.e. Full stroke around text */
+@keyframes stroke-animation {
   to {
-    transform: rotate(360deg);
+    stroke-dashoffset: 0px;
   }
 }

@@ -1,12 +1,19 @@
 {
-  "name": "svg-animation-app",
+  "name": "svg-text-animation",
   "version": "0.1.0",
+  "author": {
+    "name": "Zhihao Cui",
+    "email": "davidcui2@me.com"
+  },
+  "homepage": "http://experiment.zhihaocui.com/svg-animate/",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@types/jest": "24.0.11",
     "@types/node": "11.13.4",
     "@types/react": "16.8.13",
     "@types/react-dom": "16.8.4",
+    "antd": "^3.16.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
@@ -26,5 +33,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidcui2/svg-text-animation.git"
+  }
 }
